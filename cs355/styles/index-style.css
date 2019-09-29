@@ -9,14 +9,6 @@ body{
 	background: #272822;
 }
 
-@font-face {
-    font-family: 'Simplifica';
-    src: url('../fonts/Simplifica/Simplifica.ttf') format('truetype'),
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 /*Grid*/
 .container {
 	min-width: 390px;
