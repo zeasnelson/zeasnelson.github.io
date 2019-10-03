@@ -62,6 +62,10 @@ body{
 	color: #babab8;
 }
 
+.browser-specs, .course-links {
+	height: 100%;
+	padding-top: 8px;
+}
 
 
 /*Search bar*/
