@@ -48,7 +48,7 @@ body{
 	top: 100% !important;
 } */
 
-.dropleft:hover > .dropdown-menu {
+.dropdown-menu-right:hover > .dropdown-menu {
   display: block;
 }
 
