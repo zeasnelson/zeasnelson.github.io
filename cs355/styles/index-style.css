@@ -10,7 +10,7 @@ body{
 }
 
 /*Grid*/
-.container {
+.container-fluid {
 	min-width: 410px;
 }
 
@@ -44,10 +44,17 @@ body{
 	background: #4a4a48;
 }
 
-.icon-dropdown-menu {
+/* .icon-dropdown-menu {
 	top: 100% !important;
+} */
+
+.dropleft:hover > .dropdown-menu {
+  display: block;
 }
 
+.dropdown-header {
+	font-size: 1.2rem;
+}
 
 .browser-specs, .course-links, .nav-icon{
 	display: inline-block;
@@ -67,6 +74,11 @@ body{
 	padding-top: 8px;
 }
 
+.redirect {
+	width: 10px;
+	height: 10px;
+	float: right;
+}
 
 /*Search bar*/
 
@@ -88,5 +100,3 @@ body{
     outline: 0;
   	width: 100%;
 }
-
-
